@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AE Careers">
+        <test name="LoginTest2">
+            <classes>
+                <class name="com.qa.test.DemoTest1">
+                    <methods>
+                        <include name="print1" />
+                    </methods>
+                </class>
+            </classes>
+        </test>
+    <test name="LoginTest 2">
+        <classes>
+            <class name="com.qa.test.DemoTest1">
+                <methods>
+                    <include name="print2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
